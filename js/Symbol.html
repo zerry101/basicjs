@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h5 id="address"></h5>
+    <script>
+        const html = document.getElementById('address');
+        let name = 'sajjad shaikh';
+
+        const userData = {
+            name: 'zishan shaikh',
+            id: 6888,
+            address: 'royal akbar',
+            city: 'ahmedabad',
+            state: 'gujarat',
+            zip: 380055
+        }
+
+
+        function getUserAddress(user) {
+            return `${user.address}, ${user.city}, ${user.state}, ${user.zip}`;
+        }
+
+        userData['address'] = getUserAddress(userData);
+
+        let url = "https://www.youtube.com/watch"
+        let params = new URLSearchParams([
+            ["v", "DXrt-04CTOY"]
+        ]);
+
+        html.innerHTML = `<a href="${url.concat("?",params)}" target="_blank">Go to youtube<a/>`;
+        console.log(userData);
+        let clone = Object.assign(user);
+        alert(clone[id]); // 123
+    </script>
+
+</body>
+
+</html>

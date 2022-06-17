@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          var person={name:'leela',_id:4}
+        // console.log(person.id);
+        Object.defineProperty(person,'id',{ 
+            get:function()
+            {
+                return "this is "+this._id;
+
+            },
+            set:function(id){
+                this._id =id;
+            }
+
+           });
+
+           console.log(person.id);
+           console.log(person._id);
+
+
+    </script>
+    
+</body>
+</html>

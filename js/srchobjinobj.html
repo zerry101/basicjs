@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let array = [{
+                name: 'sajjad',
+                id: 1
+            },
+            {
+                name: 'zishan 1',
+                id: 2
+            },
+            {
+                name: 'zishan 3',
+                id: 3
+            },
+            {
+                name: 'zishan 4',
+                id: 4
+            },
+            {
+                name: 'zishan 5',
+                id: 5
+            },
+        ]
+            
+
+        let cond = JSON.stringify(array).includes(JSON.stringify({name: 'sajjad',id: 1}));
+        console.log(cond);
+    </script>
+
+
+
+</body>
+
+</html>
