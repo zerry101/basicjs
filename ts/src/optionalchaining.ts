@@ -17,4 +17,11 @@ let x = getCustomer(52);
 // console.log('perfect');
 
 // }
-console.log(x?.birthday);
+console.log(x?.birthday?.getFullYear());
+
+
+let log:any = null;
+
+log?.('a');
+// checks if log if functions or variable and treat is as it is
+
