@@ -6,5 +6,5 @@ function inctax(n:number,taxyear=2022):number{
    
 }//function return type is void 
 
-console.log(inctax(100809));
+console.log(inctax(19999999999965));
 
