@@ -8,7 +8,7 @@ function kgToLbs(wt: number|string):number{
     }
 }
 
-console.log(kgToLbs(40));
+console.log(kgToLbs('40ffdf'));
 
 
 function lbsToKg(lb: number|string):number{
@@ -21,4 +21,4 @@ function lbsToKg(lb: number|string):number{
     }
 }
 
-console.log(lbsToKg(40));
+console.log(lbsToKg('40kg'));

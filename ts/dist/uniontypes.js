@@ -7,7 +7,7 @@ function kgToLbs(wt) {
         return parseInt(wt) * 2.2;
     }
 }
-console.log(kgToLbs(40));
+console.log(kgToLbs('40ffdf'));
 function lbsToKg(lb) {
     if (typeof lb == 'number') {
         return lb / 2.2;
@@ -16,4 +16,4 @@ function lbsToKg(lb) {
         return parseInt(lb) / 2.2;
     }
 }
-console.log(lbsToKg(40));
+console.log(lbsToKg('40kg'));
