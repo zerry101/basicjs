@@ -36,6 +36,8 @@ export class TodosComponent implements OnInit {
   }
 
   deleteTodo(todo:Todo){
+    // const index:number|undefined=this.todos?.indexOf(todo);
+    this.todos?.splice(this.todos?.indexOf(todo),1);
     console.log(todo);
 
   }
