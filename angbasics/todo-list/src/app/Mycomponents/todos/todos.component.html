@@ -1,4 +1,4 @@
 <ul *ngFor="let todo of todos?.reverse()">
-  <app-todo-item [todo]="todo">todo</app-todo-item>
+  <app-todo-item [todo]="todo" (todoDelete)="deleteTodo($event)">todo</app-todo-item>
    
 </ul>
