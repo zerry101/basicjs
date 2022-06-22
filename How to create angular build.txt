@@ -1,9 +1,0 @@
-How to create a build for a project in angular and deploy it : 
-
-Step 1 : In the command prompt type " ng build --prod"
-
-Step 2 : Open file zilla and connect to the server (if not connected already)
-
-Step 3 : Delete all files from the server except the assets
-
-Step 4 : Copy all files from the local site except the assets and paste it in the server file

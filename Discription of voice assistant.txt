@@ -1,9 +1,0 @@
-When the user click on the Voice Assistant :-
-
-1) Voice Assistant : User will be greeted(good morning, good afternoon) with his/her name (Harsh). 
-
-2) Voice Assistant : Then asked to provide the reason for contact (How can I help you today ?)
-
-3) User : User will acknowledge to the previous question (I would like to create a new matter). 
-
-4) Voice Assistant : Voice assistant will take the user's voice reply and convert it to string. From there it will identify the specific words ("Create", "New", "Matter") and based on that it will take the user relevant page or call the relevant API.
