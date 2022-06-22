@@ -1,0 +1,9 @@
+remove last gateway columns in merchant buyer details listing page in admin
+in edit merchant neet to show request url and prefunding in 1 row 50-50
+
+http://localhost:8081/api/mpgs/payment/crossborder/validate?cacheBuster=1645016271461
+need to add gateway
+
+
+
+TEST001500075078	merchant.TEST001500075078	15e576fd6c2ab741da9328c29abf5aef

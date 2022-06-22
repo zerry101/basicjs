@@ -1,0 +1,6 @@
+
+<app-add-todo></app-add-todo>
+<ul *ngFor="let todo of todos?.reverse()">
+  <app-todo-item [todo]="todo" (todoDelete)="deleteTodo($event)">todo</app-todo-item>
+   
+</ul>

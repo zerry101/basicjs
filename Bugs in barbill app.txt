@@ -1,0 +1,18 @@
+Bugs Barbill App 
+
+1) Settings and Privacy & Terms page is empty
+
+2) In the Matter Details Page "MIP" tab and "Draft Matter" tab are empty
+
+3) Concierge page is empty
+
+4) In the "New Invoice" tab of the Invoice page, the "Generate Invoice" button is not working. When we click the button, API is not getting called
+
+5) In the "Send" tab of the Invoice page, the "Submit" button is not working as well, there is no API being called when we click the button
+
+6) In the "New-Matter" tab there is no validation on the "Phone Number" field, it's allowing us to add charactor in the field and continue to the next page
+
+7) In the "Matter Details" tab of the new matter page 
+
+8) When clicking on "Invite User" it's not working and giving error
+

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MASA Global</string>
+    <string name="title_activity_main">MASA Global</string>
+    <string name="package_name">com.masaglobal.member</string>
+    <string name="custom_url_scheme">com.masaglobal.member</string>
+</resources>

@@ -1,0 +1,27 @@
+https://jsonplaceholder.typicode.com/posts ==> main api
+https://jsonplaceholder.typicode.com/posts/id ==> get post by id  ==> skip for now
+https://jsonplaceholder.typicode.com/comments?postId=postID ==> get comments from post ID  ==> skip for now
+
+
+create new post 
+https://jsonplaceholder.typicode.com/posts
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+
+
+edit post  ==> skip for now
+https://jsonplaceholder.typicode.com/posts/id
+    id: 1,
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+
+delete
+https://jsonplaceholder.typicode.com/posts/id
+
+
+get request needs only ApiURL
+post request needs APIURL , data
+put request need apiurl , data , id
+delete need apiurl , id
